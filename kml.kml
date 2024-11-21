@@ -1,23 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<kml xmlns="http://www.opengis.net/kml/2.2">
-  <Document>
-    <Schema name="TaxInfoSchema" id="TaxInfoSchema">
-      <SimpleField type="string" name="City"/>
-      <SimpleField type="int" name="Population"/>
-      <SimpleField type="float" name="TaxRate"/>
-    </Schema>
-    <Placemark>
-      <name>Albuquerque</name>
-      <ExtendedData>
-        <SchemaData schemaUrl="#TaxInfoSchema">
-          <SimpleData name="City">Albuquerque</SimpleData>
-          <SimpleData name="Population">560000</SimpleData>
-          <SimpleData name="TaxRate">7.5</SimpleData>
-        </SchemaData>
-      </ExtendedData>
-      <Point>
-        <coordinates>-106.651138,35.084444</coordinates>
-      </Point>
-    </Placemark>
-  </Document>
-</kml>
+<kml xmlns="http://www.opengis.net/kml/2.2"> 
+<Document> 
+<Placemark> 
+<name>Albuquerque</name> 
+<description> <![CDATA[ <div> <strong>City:</strong> Albuquerque<br> <strong>Population:</strong> 560000<br> <strong>Tax Rate:</strong> 7.5% </div> ]]> </description>
+<Point> <coordinates>-106.651138,35.084444</coordinates> </Point> 
+</Placemark> 
+</Document>
